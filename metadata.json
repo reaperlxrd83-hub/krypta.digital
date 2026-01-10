@@ -1,0 +1,7 @@
+{
+  "name": "KRYPTA - Istanbul OTC Crypto Desk",
+  "description": "Premium physical cryptocurrency exchange in Istanbul. Instant Cash-to-Crypto and Crypto-to-Cash services with live market rates.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
