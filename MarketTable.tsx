@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { CoinData } from '../types';
+import { CoinData } from './types';
 
 interface MarketTableProps {
   coins: CoinData[];

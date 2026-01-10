@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import Navbar from './components/Navbar';
-import MarketTable from './components/MarketTable';
-import AIPanel from './components/AIPanel';
-import ExchangeWidget from './components/ExchangeWidget';
+import Navbar from './Navbar';
+import MarketTable from './MarketTable';
+import AIPanel from './AIPanel';
+import ExchangeWidget from './ExchangeWidget';
 import { CoinData, AIAnalysisResponse } from './types';
-import { getMarketAnalysis } from './services/geminiService';
+import { getMarketAnalysis } from './geminiService';
 
 const INITIAL_COINS: CoinData[] = [
   { id: '1', symbol: 'BTC', name: 'Bitcoin', price: 68420.45, change24h: 2.45, volume24h: '$34.2B', marketCap: '$1.3T', sparkline: [] },

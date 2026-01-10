@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { CoinData } from '../types';
+import { CoinData } from './types';
 
 interface ExchangeWidgetProps {
   coins: CoinData[];
