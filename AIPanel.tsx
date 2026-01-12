@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { AIAnalysisResponse, CoinData } from '../types';
+import { AIAnalysisResponse, CoinData } from './types';
 
 interface AIPanelProps {
   coin: CoinData | null;
